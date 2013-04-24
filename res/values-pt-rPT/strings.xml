@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 Andrew Neal
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Apollo</string>
+
+    <!-- Page titles -->
+    <string name="page_recent">Recente</string>
+    <string name="page_artists">Artistas</string>
+    <string name="page_albums">Albuns</string>
+    <string name="page_songs">Músicas</string>
+    <string name="page_playlists">Lista de Reprodução</string>
+    <string name="page_genres">Géneros</string>
+
+    <!-- Option menu items -->
+    <string name="menu_settings">Definições</string>
+    <string name="menu_search">Pesquisar</string>
+    <string name="menu_shuffle">Misturar todas</string>
+    <string name="menu_play_all">Reproduzir todas</string>
+    <string name="menu_sort_by">Ordenar por</string>
+    <string name="menu_shop">Procurar temas</string>
+    <string name="menu_clear_recents">Remover recentes</string>
+    <string name="menu_clear_queue">Apagar fila</string>
+    <string name="menu_save_queue">Guardar fila</string>
+    <string name="menu_share">Partilhar</string>
+    <string name="menu_add_to_homescreen">Adicionar ao ecrã princial</string>
+    <string name="menu_equalizer">Equalizador</string>
+    <string name="menu_simple">Simples</string>
+    <string name="menu_detailed">Detalhado</string>
+    <string name="menu_grid">Grade</string>
+    <string name="menu_view_as">Visualizar em</string>
+
+    <!-- Playlist items -->
+    <string name="add_to_playlist">Adicionar à lista de reprodução</string>
+    <string name="add_to_favorites">Adicionar aos favoritos</string>
+    <string name="add_to_queue">Adicionar à fila</string>
+    <string name="remove_from_favorites">Remover dos favoritos</string>
+    <string name="remove_from_recent">Remover dos recentes</string>
+    <string name="remove_from_queue">Remover da fila</string>
+
+    <!-- Sort orders -->
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string name="sort_order_entry_artist">Artista</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_year">Ano</string>
+    <string name="sort_order_entry_duration">Duração</string>
+    <string name="sort_order_entry_date_added">Data de adição</string>
+    <string name="sort_order_entry_track_list">Número da faixa</string>
+    <string name="sort_order_entry_number_of_songs">Numero de músicas</string>
+    <string name="sort_order_entry_number_of_albums">Numero de albuns</string>
+
+    <!-- Default playlist names -->
+    <string name="playlist_favorites">Favoritos</string>
+    <string name="playlist_last_added">Ultima adição</string>
+
+    <!-- AlertDialog items -->
+    <string name="new_playlist">Nova lista de reprodução</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="overwrite">Guardar por cima</string>
+    <string name="new_playlist_name_template">Lista de reprodução <xliff:g id="number">%d</xliff:g></string>
+    <string name="create_playlist_prompt">Nome da lista de reprodução</string>
+    <string name="delete_dialog_title">Remover <xliff:g id="item" example="album">%s</xliff:g>?</string>
+    <string name="cannot_be_undone">Operação não poderá ser anulada</string>
+    <string name="delete_warning">Imagens guardadas serão apagadas permanentemente</string>
+    <string name="new_photo">Escolher foto da galeria</string>
+    <string name="google_search">Pesquisar no Google</string>
+    <string name="use_default">Utilizar imagem pré-definida</string>
+    <string name="old_photo">Utilizar imagem antiga</string>
+
+    <!-- Context menu items -->
+    <string name="context_menu_play_selection">Tocar</string>
+    <string name="context_menu_play_next">Tocar seguinte</string>
+    <string name="context_menu_more_by_artist">Mais do artista</string>
+    <string name="context_menu_rename_playlist">Renomear</string>
+    <string name="context_menu_delete">Remover</string>
+    <string name="context_menu_fetch_album_art">Buscar capa do album</string>
+    <string name="context_menu_fetch_artist_image">Buscar imagem do artista</string>
+    <string name="context_menu_open_in_play_store">Abrir na Play Store</string>
+    <string name="context_menu_remove_from_recent">Remover dos recentes</string>
+    <string name="context_menu_use_as_ringtone">Definir como toque</string>
+
+    <!-- Content descriptions -->
+    <string name="accessibility_play">Tocar</string>
+    <string name="accessibility_pause">Pausar</string>
+    <string name="accessibility_next">Próxima</string>
+    <string name="accessibility_prev">Anterior</string>
+    <string name="accessibility_shuffle">Misturar</string>
+    <string name="accessibility_shuffle_all">Misturar todas</string>
+    <string name="accessibility_repeat">Repetir</string>
+    <string name="accessibility_repeat_all">Repetir todas</string>
+    <string name="accessibility_repeat_one">Repetir uma</string>
+
+    <!-- Toast messages -->
+    <string name="pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> adicionada ao ecrã principal</string>
+    <string name="could_not_be_pinned_to_home_screen"><xliff:g id="name">%s</xliff:g> não pôde ser adicionada ao ecrã principal</string>
+    <string name="set_as_ringtone">\'<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\' definida como toque</string>
+    <string name="playlist_renamed">Lista de reprodução renomeada</string>
+    <string name="theme_set"><xliff:g id="name">%s</xliff:g> utilizado como tema</string>
+
+    <!-- Settings -->
+    <string name="settings_ui_category">Interface</string>
+    <string name="settings_storage_category">Armazenamento</string>
+    <string name="settings_data_category">Data</string>
+    <string name="settings_about_category">Sobre</string>
+    <string name="settings_author_title">Autor</string>
+    <string name="settings_about_apollo">Sobre o Apollo</string>
+    <string name="settings_special_thanks">Agradecimentos especiais</string>
+    <!-- 
+	<string name="settings_cyanogenmod_title" translatable="false">CyanogenMod</string>
+    <string name="settings_self_title" translatable="false">Andrew Neal</string>
+    <string name="settings_lopez_title" translatable="false">A.J. Lopez</string> 
+	-->
+    <string name="settings_lopez_summary">Design do icone e da imagem da Play Store</string>
+    <string name="settings_color_scheme_title">Escolher esquema de cor predefinido do Apollo\'s</string>
+    <string name="settings_color_scheme_summary">Altera cor principal do Apollo</string>
+    <string name="settings_theme_chooser_title">Theme chooser</string>
+    <string name="settings_delete_cache_title">Apagar cache</string>
+    <string name="settings_delete_cache_summary">Remover as imagens em cache</string>
+    <string name="settings_download_only_on_wifi_title">Descarregar apenas por Wi-Fi</string>
+    <string name="settings_download_only_on_wifi_summary">Para reduzir encargos não descarregue utilizando ligação de dados</string>
+    <string name="settings_download_missing_artwork_title">Descarregar capas de album em falta</string>
+    <string name="settings_download_artist_images_title">Descarregar imagens de artista em falta</string>
+    <string name="settings_open_source_licenses">Licenças "Open Source"</string>
+    <string name="settings_use_lockscreen_controls">Utilizar controlos de bloqueio de ecrã</string>
+    <string name="settings_version_title">Versão número</string>
+
+    <!-- Share Intent -->
+    <string name="now_listening_to">#NowPlaying <xliff:g id="title">%1$s</xliff:g> por <xliff:g id="artist">%2$s</xliff:g> #Apollo</string>
+    <string name="share_track_using">Partilhar faixa por:</string>
+
+    <!-- ColorPicker -->
+    <string name="color_picker_title">Esquema de cor</string>
+    <string name="hex">#</string>
+    <string name="current_color">Actual</string>
+    <string name="new_color">Novo</string>
+
+    <!-- App widget -->
+    <string name="app_widget_small">Apollo: 4x1</string>
+    <string name="app_widget_large">Apollo: 4x2</string>
+    <string name="app_widget_large_alt">Apollo: 4x2 (alternativo)</string>
+    <string name="app_widget_recent">Apollo: escutados recentemente</string>
+    <string name="app_widget_text_separator">-</string>
+
+    <!-- What keywords to use when shopping for Apollo themes -->
+    <!--
+	<string name="apollo_themes_shop_key" translatable="false">Apollo Themes</string>
+	-->
+
+    <!-- Empty list / error messages -->
+    <string name="no_effects_for_you">Equalizador não pôde ser iniciado.</string>
+    <string name="empty_music">Para copiar músicas do computador utilize um cabo USB.</string>
+    <string name="empty_last_added">Músicas adicionadas no último mês serão aqui mostradas.</string>
+    <string name="empty_search">Sem resultados</string>
+    <string name="empty_favorite">Músicas adicionadas aos favoritos serão aqui mostradas.</string>
+    <string name="empty_recent">Albuns escutados serão mostrados aqui. Experimente tocar alguma música.</string>
+
+</resources>
